@@ -1,24 +1,3 @@
-# README
+# Address Validation for Planning Center Online
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This will be a simple app which, when a person is added or updated in Planning Center, will validate and update their address. It will use Planning Center's webhooks and SmartyStreets API. It requires a church to have a [personal access token with Planning Center](https://api.planningcenteronline.com/oauth/applications) and a [SmartyStreets](http://smartystreets.com/) account (free plan is available).
